@@ -1,0 +1,70 @@
+// /* Stiziles */
+//
+// html, body {
+//   background: #222222;
+// }
+//
+// /* main */
+//
+// .main {
+//   width: 100%;
+//   height: 100%;
+//   background: #222222;
+//   color: #fff;
+// }
+//
+// .main img {
+//   width: 103px;
+//   height: 89px;
+//   margin-bottom: 10px;
+//   text-align: center;
+// }
+//
+// /* transitions */
+//
+// .fade-enter {
+//   opacity: 0.01;
+//   transition: opacity .5s ease-in;
+// }
+//
+// .fade-enter.fade-enter-active {
+//   opacity: 1;
+// }
+//
+// .fade-leave {
+//   opacity: 1;
+//   transition: opacity .5s ease-in;
+// }
+//
+// .fade-leave.fade-leave-active {
+//   opacity: 0.01;
+// }
+html,body{
+   background-color:#222;
+   width: 100%;
+   height: 100%;
+}
+.content{
+  width: 100%;
+  height: 100%;
+}
+.stage{
+  position: relative;
+  width: 100%;
+  height: 680px;
+}
+.img-sec{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ddd;
+}
+.controller-nav{
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  z-index: 101;
+  width: 100%;
+  text-align: center;
+}
